@@ -1,0 +1,52 @@
+.create-button-container {
+  margin: 20px;
+}
+
+.header-container {
+  margin-top: 20px;
+}
+
+.header-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #212121;
+}
+
+.filter-input {
+  margin-left: 20px;
+  width: 300px;
+}
+
+.cards-container {
+  padding: 20px;
+}
+
+.event-card {
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.card-header {
+  background-color: #e3f2fd;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.card-header-text {
+  color: #1e88e5;
+}
+
+.card-info {
+  font-size: 1rem;
+  color: #424242;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+
+
+.paginator {
+  margin-top: 20px;
+}

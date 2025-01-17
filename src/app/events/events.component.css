@@ -1,0 +1,49 @@
+.dialog-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #212121; /* Couleur sombre pour le titre */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dialog-content {
+  padding: 20px;
+  width: 100%;
+  color: #212121; /* Texte sombre pour le contenu */
+}
+
+.form-field {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.dialog-actions {
+  padding: 20px;
+}
+
+button {
+  width: 150px;
+}
+
+button.mat-raised-button {
+  font-size: 1rem;
+  padding: 10px;
+  color: white; /* Assurer que le texte des boutons est visible */
+}
+
+/* Pour les champs de texte dans les formulaires */
+.mat-input-element {
+  color: #212121; /* Texte dans les champs de saisie */
+}
+
+.mat-form-field-label {
+  color: #212121; /* Couleur de l'étiquette */
+}
+
+.mat-form-field-ripple {
+  background-color: #2196F3; /* Ajout d'une couleur au ripple de l'input */
+}

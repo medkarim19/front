@@ -1,0 +1,50 @@
+/* Appliquer un fond blanc à la page */
+body {
+  background-color: white !important;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Conserver le style de la section contenant les outils */
+.cards.mat-elevation-z8 {
+  background-color: #ffffff !important; /* Fond blanc pour les cartes */
+  border-radius: 8px;
+}
+
+/* S'assurer que les boutons et les autres éléments respectent les styles */
+mat-button, mat-raised-button, mat-icon-button {
+  color: #2196F3;
+}
+
+/* Améliorer l'apparence des cards */
+.event-card {
+  margin: 10px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+/* Détails spécifiques des cartes */
+.card-header {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Maintenir les arrière-plans pastel dans les cartes */
+.pastel-grad {
+  background: linear-gradient(135deg, #f6f7fb 0%, #ffffff 100%);
+}
+
+/* Améliorer l'alignement des boutons dans les cartes */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Préserver le style du paginator */
+mat-paginator {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}

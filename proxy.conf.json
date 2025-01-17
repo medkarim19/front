@@ -1,0 +1,23 @@
+{
+    "/publications": {
+      "target": "http://localhost:9000",
+      "secure": false,
+      "changeOrigin": true
+    },
+    "/members": {
+      "target": "http://localhost:9000",
+      "secure": false,
+      "changeOrigin": true
+    },
+    "/events": {
+      "target": "http://localhost:9000",
+      "secure": false,
+      "changeOrigin": true
+    },
+    "/tools": {
+      "target": "http://localhost:9000",
+      "secure": false,
+      "changeOrigin": true
+    }
+}
+  

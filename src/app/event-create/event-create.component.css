@@ -1,0 +1,63 @@
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.mat-form-field-label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.mat-input-element {
+  color: #333;
+  font-size: 1rem;
+}
+
+.mat-datepicker-toggle,
+.mat-date-range-input {
+  color: #2196F3; /* Accent color */
+}
+
+.mat-hint {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+button.mat-fab {
+  width: 180px;
+  height: 56px;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+button.mat-fab:hover {
+  background-color: #1976D2; /* Darker primary color */
+}
+
+mat-icon {
+  margin-right: 8px;
+}
+
+.fxLayout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fxLayoutAlign {
+  justify-content: center;
+  align-items: center;
+}
