@@ -77,7 +77,7 @@ export class ToolsComponent implements AfterViewInit,OnInit, OnDestroy  {
         this.loadTools();
         // or manually add the tool to the existing list
         // this.dataSource.push(toolNew);
-
+        
         // Close the dialog
       });
     });
@@ -98,9 +98,9 @@ export class ToolsComponent implements AfterViewInit,OnInit, OnDestroy  {
       this.MS.affectMemberToTool(data.member.id, toolId).subscribe(()=>{
         // or manually add the tool to the existing list
         // this.dataSource.push(toolNew);
-        // this.router.navigate(['/dashboard']);
+        this.router.navigate(['/dashboard']);
         // Close the dialog
-        location.reload();
+        //location.reload();
 
       });
     });

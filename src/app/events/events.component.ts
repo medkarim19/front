@@ -1,6 +1,7 @@
 import { AfterViewInit, ChangeDetectorRef, Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { EvenementService } from 'src/services/event.service';
 import { Evenement } from 'src/models/event';
+import { Member } from 'src/models/member';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
@@ -59,12 +60,15 @@ export class EventsComponent implements OnInit, OnDestroy, AfterViewInit {
   }
   consulter(eventId: number): void {
     const dialogConfig = new MatDialogConfig();
-
+    this.MS.getMembersByEvent(eventId).subscribe((data: Member[]) => {
+      dialogConfig.data = data;
+    });
     dialogConfig.disableClose = true;
     dialogConfig.autoFocus = true;
-    dialogConfig.data = { eventId };
+  
     const dialogRef = this.dialog.open(ConsulterInvitesComponent, dialogConfig);
   }
+  
 
   affecter(eventId: number): void {
     const dialogConfig = new MatDialogConfig();
